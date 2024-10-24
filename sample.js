@@ -1,4 +1,4 @@
-const csvUrl = 'https://example.com/addresses.csv';
+const csvUrl = 'https://raw.githubusercontent.com/qnwmt/test/refs/heads/main/address.csv';
 fetch(csvUrl)
   .then(response => response.text())
   .then(csvText => { ... })
